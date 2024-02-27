@@ -1,11 +1,11 @@
 Algoritmo "Calculadora simples"
-// Disciplina   : Linguagem e lógica de Programação
+// Disciplina   : Linguagem e lÃ³gica de ProgramaÃ§Ã£o
 // Professor   : Jeice Santos
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Algoritmo para calcular dois nÃºmeros com operaÃ§Ãµes simples.
 // Autor(a)    : Talento Cloud  e Portal Tech
 // Data atual  : 27/02/2024
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 resultado: real
 numero: real
 operacao: caractere
@@ -13,7 +13,7 @@ continuar: caractere
 
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 escreva("-----------CALCULADORA----------")
 escreva ("")
 
@@ -25,7 +25,7 @@ leia (resultado)
 escreva ("Escolha a operacao [+ - * /]")
 leia (operacao)
 
-escreva ("Digite o segundo nuemro: ")
+escreva ("Digite o segundo numero: ")
 leia(numero)
 
 escolha operacao
@@ -45,8 +45,8 @@ resultado <- resultado/numero
 fimescolha
 
 escreva ("")
-escreval ("O numero escolhido foi:  ")
-escreval (resultado)
+escreva ("O numero escolhido foi:  ")
+escreva (resultado)
 
 escreva ("Deseja continuar S/N")
 leia (continuar)
