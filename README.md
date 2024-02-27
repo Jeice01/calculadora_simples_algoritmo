@@ -8,8 +8,8 @@ Este é um trecho de código escrito em uma linguagem estruturada semelhante ao 
 
 ### 1. Exibição de Mensagens
 ```portugol
-escreval ("O seu número é: ")
-escreval (resultado)
+escreva ("O seu número é: ")
+escreva (resultado)
 ```
 Essas linhas exibem a mensagem "O seu número é: " e, em seguida, o valor contido na variável `resultado` no console.
 
